@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="@dimen/recycler_view_margin_horizontal"
+    android:paddingLeft="@dimen/recycler_view_margin_horizontal"
+    android:paddingRight="@dimen/recycler_view_margin_horizontal"
+    android:paddingStart="@dimen/recycler_view_margin_horizontal">
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/recycler_view_margin_vertical"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="@dimen/recycler_view_margin_horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="@dimen/recycler_view_margin_horizontal"
+        android:layout_marginTop="@dimen/recycler_view_margin_vertical"
+        android:layout_toLeftOf="@+id/btnContainer"
+        android:layout_toStartOf="@+id/btnContainer"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/list_font_size" />
+
+
+    <LinearLayout
+        android:id="@+id/btnContainer"
+        android:layout_width="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnShowMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_background_blue"
+            android:paddingLeft="@dimen/btn_padding_horizontal"
+            android:paddingRight="@dimen/btn_padding_horizontal"
+            android:text="@string/btn_show_map"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/btn_font_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#CCCCCC" />
+</RelativeLayout>

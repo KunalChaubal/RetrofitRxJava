@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Fragment User List-->
+    <dimen name="btn_padding_horizontal">25dp</dimen>
+    <dimen name="btn_font_size">13sp</dimen>
+
+    <dimen name="margin_card">5dp</dimen>
+    <dimen name="recycler_view_margin_horizontal">10dp</dimen>
+    <dimen name="recycler_view_margin_vertical">15dp</dimen>
+    <dimen name="list_font_size">13sp</dimen>
+
+</resources>

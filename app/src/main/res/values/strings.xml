@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RxJavaRetrofit</string>
+    <string name="btn_show_details">Show Details</string>
+    <string name="btn_show_map">Show Map</string>
+</resources>
